@@ -1,0 +1,145 @@
+.topbar-container {
+    height: 175px;
+    background-color:  black;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0px 30px 0px 40px;
+}
+
+.logo img{
+    width: 350px;
+}
+
+.explore-wrapper {
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    font-size: 2.5em;
+    font-weight: 900;
+    justify-content: space-evenly;
+}
+
+.explore-wrapper ul {
+    display: flex;
+}
+
+.explore {
+    color: #f4e184;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    margin-top: 45px;
+}  
+
+.pens {
+    margin-right: 30px;
+}
+
+.projects {
+    margin-right: 30px;
+}
+
+.post {
+    margin-right: 30px;
+}
+
+.collectios {
+    margin-right: 30px;
+}
+
+.spark {
+    display: flex;
+    align-items: center;
+    font-size: 2.5em;
+    margin: 50px 40px 0px 0px;
+    color: #a1acac;
+    font-weight: 500;
+    
+} 
+.spark i {
+    font-size: 0.7em;
+    color: #a1acac;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+
+.right-side-bar {
+    display: flex;
+    justify-content: right;
+}
+
+.create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin: 0px 0px 0px 40px;
+    color: white;
+    font-weight: 900;
+}
+
+.down-chevron-green {
+    color: #4bce79;
+    margin-left: 30px;
+}
+
+.create-buttom {
+    background-color: #36383f;
+    padding: 40px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.magnifier {
+    display: flex;
+    align-items: center;
+    font-size: 4em;
+    margin: 0px 0px 0px 0px;
+    color: #a1acac;
+    margin: 0px 45px 0px 45px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    font-weight: 900;
+    margin-right: 15px;
+    
+}
+
+.login-buttom {
+    background-color: #36383f;
+    padding: 40px;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    margin-right: 20px; 
+    color: white;
+    font-weight: 900;
+    margin-left: 15px;
+    
+}
+
+.signup-buttom {
+    background-color: #36383f;
+    padding: 40px;
+    display: flex;
+    border-radius: 10px;
+}
